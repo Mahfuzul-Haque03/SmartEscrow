@@ -1,0 +1,20 @@
+{
+  "name": "smartescrow",
+  "version": "3.0.1",
+  "description": "SmartEscrow Version 3.0.1: Ethereum milestone escrow dApp with Byzantine-threshold approval, approver staking, disputes, and reward distribution.",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:hardhat": "hardhat run scripts/deploy.js --network hardhat",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.17"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
